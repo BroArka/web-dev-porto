@@ -1,0 +1,112 @@
+@media screen and (max-width: 1400px){
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav{
+        display:flex;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section-container {
+        display: block;
+        height: fit-content;
+    }
+    #profile {
+        display: block;
+        height: fit-content;
+        margin: 5rem 0;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact,
+    footer {
+        height: 40vh;
+    }
+    #profile {
+        margin: 0;
+        height: 83vh;
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .btn {
+        width: 7rem;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+    }
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container {
+        width: 60vw;
+        height: 60vw;
+        margin-bottom: 1.5rem;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #profile {
+        height: fit-content;
+        margin: 2rem 0;
+    }
+    .section__pic-container {
+        width: 75vw;
+        height: 75vw;
+    }
+    .section__text__p2 {
+        font-size: 1.1rem;
+    }
+    .btn {
+        width: 6rem;
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+}
